@@ -65,20 +65,20 @@ class Config(multiconfig.DefaultConfig):
     # Wiki identity ----------------------------------------------------
 
     # Site name, used by default for wiki name-logo [Unicode]
-    sitename = u'Untitled Wiki'
+    sitename = u'Wiki de la Communauté'
 
     # Wiki logo. You can use an image, text or both. [Unicode]
     # For no logo or text, use '' - the default is to show the sitename.
     # See also url_prefix setting below!
-    logo_string = u'<img src="%s/common/logo.png" alt="Logo">' % url_prefix_static
+    logo_string = u'<img src="%s/common/logo.png" alt="chaumière">' % url_prefix_static
 
     # name of entry page / front page [Unicode], choose one of those:
 
     # a) if most wiki content is in a single language
-    #page_front_page = u"MyStartingPage"
+    page_front_page = u"MyStartingPage"
 
     # b) if wiki content is maintained in many languages
-    page_front_page = u"FrontPage"
+    #page_front_page = u"FrontPage"
 
     # The interwiki name used in interwiki links
     #interwikiname = u'UntitledWiki'
@@ -149,7 +149,7 @@ class Config(multiconfig.DefaultConfig):
     # YOUR language that other people contributed.
 
     # The main wiki language, set the direction of the wiki pages
-    language_default = 'en'
+    language_default = 'fr'
 
     # the following regexes should match the complete name when used in free text
     # the group 'all' shall match all, while the group 'key' shall match the key only
